@@ -434,13 +434,16 @@ position: relative;
 border-bottom: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
 .selo-neon-pop-rok:hover .selo-card-text{
     transform: translateY(0%);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    
     }
 
 .selo-card-wrapper{
@@ -520,11 +523,14 @@ color: #f4f4fd;
     width: 264px;
   
 }
-
+.social-footer{
+    margin-right: 120px;
+}
 
 .social-media-container {
     display: flex;
     align-items:baseline;
+   
   
 }
 .social-media-title {font-weight: 500;
