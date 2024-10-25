@@ -160,11 +160,11 @@ background-color: #404bbf;
 .main-sektion {
     
     padding: 188px 0;
-    background: #2e2f42;}
+    background-color: #2E2F42;}
     .section-class{
     background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
         url(../images/hero-backgraund-min.jpg);
-        background: no-repeat;
+        background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         max-width: 1440px;
@@ -180,7 +180,7 @@ background-color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    background: #2e2f42;
+   
     padding-bottom: 48px;
     display: block;
     max-width: 496px;
@@ -352,7 +352,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         gap: 24px;
     }
     
-    .social-link {
+    .social-one-link {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -363,8 +363,8 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .social-link:hover,
-    .social-link:focus {
+    .social-one-link:hover,
+    .social-one-link:focus {
         background-color: #404bbf; /* Колір при ховері та фокусі */
     }
     
@@ -521,9 +521,11 @@ color: #f4f4fd;
   
 }
 
+
 .social-media-container {
     display: flex;
-    align-items: baseline;
+    align-items:baseline;
+  
 }
 .social-media-title {font-weight: 500;
     font-size: 16px;
@@ -531,18 +533,23 @@ color: #f4f4fd;
     letter-spacing: 0.02em;
     color: var(--text-color, #FFFFFF);
     margin-bottom: 16px;
+   align-items: baseline;
 }
-.social-footer{
 
 
-}
-.social-list {
+
+
+.footer-social-list {
     display: flex;
-    gap: 16px; }
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
 
 .social-item{
-    width: 40px;
-    height: 40px;
+    display: flex;
+    
+    gap: 24px;
 }
 .social-link{ 
     display: flex;
@@ -554,9 +561,9 @@ color: #f4f4fd;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.media-link:hover { 
+.social-link:hover { 
     background-color: #31d0aa;}
-.media-link:focus {
+.social-link:focus {
     background-color: #31d0aa;
 }
 .media-icon {
